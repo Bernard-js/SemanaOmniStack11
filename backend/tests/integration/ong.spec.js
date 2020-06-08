@@ -6,7 +6,7 @@ describe('ONG', () => {
     
     beforeEach(async () => {
         await connection.migrate.rollback();
-        // await connection.migrate.latest(); //SQLite error: table 'ongs' already exists (tentar resolver posteriormente)
+        //await connection.migrate.latest(); //SQLite error: table 'ongs' already exists (tentar resolver posteriormente)
         // estudar o conceito de migrations no knex query builder e SQLite3
     })
     
